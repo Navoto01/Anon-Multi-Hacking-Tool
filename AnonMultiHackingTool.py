@@ -1,10 +1,9 @@
 import os
 import time
-import pyautogui
 import sys
 
 def clear_screen():
-    os.system('cls' if os.name == 'nt' else 'clear')
+    os.system('clear')
 
 def countdown(seconds):
     for i in range(seconds, 0, -1):
@@ -53,6 +52,7 @@ def brute_force_pin():
         countdown(wait_time)
 
 def main_menu():
+    clear_screen()
     print("""
                                __  __       _ _   _   _    _            _    _               _______          _ 
      /\                       |  \/  |     | | | (_) | |  | |          | |  (_)             |__   __|        | |
