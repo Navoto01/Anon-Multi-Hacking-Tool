@@ -1,4 +1,7 @@
-# Anon-Multi-Hacking-Tool
+# Anon Multi Hacking Tool
 
+## Installation
 
-### Installition
+```bash
+git clone https://github.com/Navoto01/Anon-Multi-Hacking-Tool.git
+python3 AnonMultiHackingTool.py
