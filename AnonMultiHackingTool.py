@@ -1,6 +1,5 @@
 import os
 import time
-import pyautogui
 import sys
 
 def clear_screen():
